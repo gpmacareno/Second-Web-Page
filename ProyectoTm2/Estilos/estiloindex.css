@@ -1,0 +1,219 @@
+/* Estilo de la cabecera*/
+
+header{
+    text-align: center;
+    color: crimson;
+    text-transform: capitalize;
+}
+
+header div{
+
+    width: 100%;
+    height: 150px;
+
+}
+
+#fondo{
+    background-image: url(OIP.jpg);
+    
+}
+
+/* Estilo del navegador*/
+
+.boton {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.boton:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.boton:active {
+	position:relative;
+	top:1px;
+}
+
+/* Estilo del Cuerpo*/
+
+h1{
+
+    text-shadow: 12px 3px 4px #FFFFFF;
+    color: #FFFFFF;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body{
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+76,1c1c1c+91,131313+100;Black+Gloss+%231 */
+    background: rgb(76,76,76); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 */
+    text-align: justify;
+}
+
+hr{
+
+    clear: both;
+
+}
+
+#primero{
+    
+    margin-top: 20px;
+    width: 500px;
+    padding: 50px 50px 40px 50px;
+    background-color: black;
+    color: #810e05;
+    float: left;
+    margin-left: 200px;
+    border: 12px dotted #630303;
+
+}
+
+#segundo{
+    
+    margin-top: 20px;
+    width: 500px;
+    padding: 40px 50px 40px 50px;
+    background-color: rgb(133, 11, 11);
+    color: #030101;
+    float: left;
+    margin-left: 200px;
+    border: 12px solid #d1ff03;
+    text-align: center;
+
+}
+
+#video{
+
+    float: left;
+    width: 500px;
+
+}
+
+#tercero{
+    
+    
+    margin-top: 20px;
+    width: 500px;
+    padding: 20px 20px 40px 50px;
+    background-color: rgb(72, 11, 240);
+    color: #080303;
+    float: left;
+    margin-left: 200px;
+    border: 12px dashed #000000;
+    box-shadow: 46px 19px 5px 1px #000, 5px 5px 10px 1px #000;
+
+}
+
+#imgperfil{
+
+
+    float: right;
+    height: 300px;
+    width: 300px;
+    margin-right: 100px;
+
+}
+
+.separador{
+
+    margin-left: 100px;
+
+}
+
+.lista{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 80px;
+
+
+}
+
+.fechas{
+
+    font-weight: bolder;
+    color: blueviolet;
+    text-decoration: underline;
+
+}
+
+#cuarto{
+    
+    margin-top: 20px;
+    width: 500px;
+    padding: 20px 20px 40px 50px;
+    background-color: rgb(255, 14, 215);
+    color: #080303;
+    float: left;
+    margin-left: 200px;
+    border: 12px solid #ff0a0a;
+    box-shadow: 46px 19px 5px 1px #000, 5px 5px 10px 1px rgb(255, 8, 8);
+
+}
+
+#imgperfil2{
+
+
+    float: right;
+    height: 300px;
+    width: 300px;
+    margin-right: 100px;
+
+}
+
+#vuelta{
+
+
+text-align: left;
+font-weight: bolder;
+font-size: 30px;
+color: #630303;
+clear: both;
+}
+
+a:link{         /* links sin usar*/
+    color: rgb(172, 71, 255);
+    font-style: italic;
+}
+
+a:visited{         /* links usado visitado*/
+    color: orchid;
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:hover{         /* cuando pasamos el raton por encima*/
+    color: greenyellow;
+    text-decoration: underline;
+    font-style: italic;
+    text-transform: lowercase;
+}
+
+/* Estilo del pie*/
+
+
+
+footer{
+
+    text-align: left;
+    clear: both;
+    
+
+}
